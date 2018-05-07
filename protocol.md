@@ -101,8 +101,8 @@ github: https://github.com/udtrokia
 
 ## 对等网络 ( peer-to-peer )
 <div id="p2p"/>
-又称点对点技术，是[无中心服务器](https://zh.wikipedia.org/wiki/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96)、依靠用户群（peers）交换信息的互联网体系，它的作用在于，减低以往网路传输中的节点，以降低资料遗失的风险。
-
+又称点对点技术，是 [无中心服务器][无中心服务器]、依靠用户群（peers）交换信息的互联网体系，它的作用在于，减低以往网路传输中的节点，以降低资料遗失的风险。
+[无中心服务器]:https://zh.wikipedia.org/wiki/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96
 
 
 ### 根据中央化程度分类  
