@@ -1,10 +1,10 @@
 
-# About Protocol
-> 网络协议入门笔记。<br/>
+# About Protocol  
+网络协议入门笔记。<br/>
 
-## TCP/IP 协议族
+## TCP/IP 协议族  
 
-#### 不同计算机运行的不同协议
+#### 不同计算机运行的不同协议  
 
 | 计算机 | 协议                                                         |
 | ------ | ------------------------------------------------------------ |
@@ -14,8 +14,8 @@
 | 固件   | [ARP](https://zh.wikipedia.org/wiki/ARP)，[IP](https://zh.wikipedia.org/wiki/IP)，[ICMP](https://zh.wikipedia.org/wiki/ICMP)，[UDP](https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE)，[BOOTP](https://zh.wikipedia.org/w/index.php?title=BOOT&action=edit&redlink=1)，[TFTP](https://zh.wikipedia.org/wiki/TFTP) |
 
 
-#### 因特网协议栈中的层
-> 将 TCP / IP 参考模型映射到 OSI 模型。<br/>
+#### 因特网协议栈中的层  
+将 TCP / IP 参考模型映射到 OSI 模型。<br/>
 
 | OSI 模型   | TCP / IP 系列协议                                            |
 | ---------- | ------------------------------------------------------------ |
@@ -50,20 +50,17 @@
 ```
  T~~~~T
 [A]  [B]__[C]
-```
+```  
 
 这样就形成了两个协议栈，两个不同类型的基础协议不会直接通信。  
 
 ## 对等网络 ( peer-to-peer )
-
-> 又称点对点技术，是[无中心服务器](https://zh.wikipedia.org/wiki/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96)、依靠用户群（peers）交换信息的互联网体系，它的作用在于，减低以往网路传输中的节点，以降低资料遗失的风险。
-
+又称点对点技术，是[无中心服务器](https://zh.wikipedia.org/wiki/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96)、依靠用户群（peers）交换信息的互联网体系，它的作用在于，减低以往网路传输中的节点，以降低资料遗失的风险。
 
 
-#### 根据中央化程度分类
 
+#### 根据中央化程度分类  
 ##### 纯 P2P:
-
 - 节点同时作为[客户端](https://zh.wikipedia.org/wiki/%E5%AE%A2%E6%88%B7%E7%AB%AF)和[服务器端](https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF)。
 - 没有中心[服务器](https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8)。
 - 没有中心[路由器](https://zh.wikipedia.org/wiki/%E8%B7%AF%E7%94%B1%E5%99%A8)。
@@ -77,28 +74,24 @@
 - 如最原始的[Napster](https://zh.wikipedia.org/wiki/Napster)。  
 
 ##### 混合 P2P
-
 - 同时含有纯P2P和杂P2P的特点。
 - 如[Skype](https://zh.wikipedia.org/wiki/Skype)。
 
 
 
-#### 根据网路拓扑结构
+#### 根据网路拓扑结构  
 
-##### 结构P2P
-
+##### 结构 P2P
 - 点对点之间互有连结资讯，彼此形成特定规则拓扑结构。
 - 需要请求某资源时，依该拓扑结构规则寻找，若存在则一定找得到。
 - 如[Chord](https://zh.wikipedia.org/w/index.php?title=Chord&action=edit&redlink=1)、[YaCy](https://zh.wikipedia.org/wiki/YaCy)、[Kademlia](https://zh.wikipedia.org/wiki/Kademlia)。  
 
-##### 无结构P2P
-
+##### 无结构 P2P
 - 点对点之间互有连结资讯，彼此形成无规则[网状拓扑](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91)结构。
 - 需要请求某资源节点时，以[广播](https://zh.wikipedia.org/wiki/%E5%B9%BF%E6%92%AD)方式寻找，通常会设[TTL](https://zh.wikipedia.org/wiki/%E5%AD%98%E6%B4%BB%E6%99%82%E9%96%93)，即使存在也不一定找得到。
 - 如[Gnutella](https://zh.wikipedia.org/wiki/Gnutella)。  
 
-##### 松散结构P2P
-
+##### 松散结构 P2P
 - 点对点之间互有连结资讯，彼此形成无规则网状拓扑结构。
 - 需要请求某资源时，依现有资讯推测寻找，介于结构P2P和无结构P2P之间。
 - 如[Freenet](https://zh.wikipedia.org/wiki/Freenet)。  
