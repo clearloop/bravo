@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [About Blockchain Protocol](protocol.md)
+* [区块链协议学习笔记及相关资料摘录](protocol.md)
   * [TCP/IP 协议族](/protocol.md#tcp)
   * [协议栈( protocol-stack )](/protocol.md#stack)
   * [对等网络( peer-to-peer )](/protocol.md#p2p)
