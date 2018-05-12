@@ -11,3 +11,5 @@
   * [数据结构表](/src/gun/datastructure.md)
   * [数据结构表2](/src/gun/datastructure2.md)
   * [Ad Hoc Mesh 网络](/src/gun/mesh.md)
+* [阅读笔记](/src/notes/README.md)
+  * [精通比特币](/src/notes/btc.md)
