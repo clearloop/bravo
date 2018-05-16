@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>比特币 · GitBook</title>
+        <title>交易 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,8 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="intro.html" />
     
+    <link rel="prev" href="wallet.html" />
     
 
     </head>
@@ -365,7 +365,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5" data-path="./">
+        <li class="chapter " data-level="1.5" data-path="./">
             
                 <a href="./">
             
@@ -444,7 +444,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.6" data-path="transaction.html">
+        <li class="chapter active" data-level="1.5.6" data-path="transaction.html">
             
                 <a href="transaction.html">
             
@@ -744,7 +744,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >比特币</a>
+        <a href="../.." >交易</a>
     </h1>
 </div>
 
@@ -759,8 +759,129 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7CBE;&#x901A;&#x6BD4;&#x7279;&#x5E01;">&#x7CBE;&#x901A;&#x6BD4;&#x7279;&#x5E01;</h1>
-<p><a href="http://book.8btc.com/books/1/master_bitcoin/_book/" target="_blank">&#x4E66;&#x7C4D;&#x94FE;&#x63A5;</a></p>
+                                <h1 id="&#x7B2C;&#x516D;&#x7AE0;-&#x4EA4;&#x6613;">&#x7B2C;&#x516D;&#x7AE0; &#x4EA4;&#x6613;</h1>
+<h2 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h2>
+<p>&#x6BD4;&#x7279;&#x5E01;&#x4EA4;&#x6613;&#x662F;&#x6BD4;&#x7279;&#x5E01;&#x7CFB;&#x7EDF;&#x4E2D;&#x6700;&#x91CD;&#x8981;&#x7684;&#x90E8;&#x5206;&#x3002;&#x6839;&#x636E;&#x6BD4;&#x7279;&#x5E01;&#x7CFB;&#x7EDF;&#x7684;&#x8BBE;&#x8BA1;&#x539F;&#x7406;&#xFF0C;&#x7CFB;&#x7EDF;&#x4E2D;&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x7684;&#x90E8;&#x5206;&#x90FD;&#x662F;&#x4E3A;&#x4E86;&#x786E;&#x4FDD;&#x6BD4;&#x7279;&#x5E01;&#x4EA4;&#x6613;&#x53EF;&#x4EE5;&#x88AB;&#x751F;&#x6210;&#x3001;&#x80FD;&#x5728;&#x6BD4;&#x7279;&#x5E01;&#x7F51;&#x7EDC;&#x4E2D;&#x5F97;&#x4EE5;&#x4F20;&#x64AD;&#x548C;&#x901A;&#x8FC7;&#x9A8C;&#x8BC1;&#xFF0C;&#x5E76;&#x6700;&#x7EC8;&#x6DFB;&#x52A0;&#x5165;&#x5168;&#x7403;&#x6BD4;&#x7279;&#x5E01;&#x4EA4;&#x6613;&#x603B;&#x8D26;&#x7C3F;&#xFF08;&#x6BD4;&#x7279;&#x5E01;&#x533A;&#x5757;&#x94FE;&#xFF09;&#x3002;</p>
+<p><strong>&#x89E3;&#x7801;&#x540E;&#x7684;&#x4EA4;&#x6613;</strong></p>
+<pre><code>{
+  &quot;version&quot;: 1,
+  &quot;locktime&quot;: 0,
+  &quot;vin&quot;: [
+    {
+      &quot;txid&quot;:&quot;7957a35fe64f80d234d76d83a2a8f1a0d8149a41d81de548f0a65a8a999f6f18&quot;,
+      &quot;vout&quot;: 0,
+      &quot;scriptSig&quot;: &quot;3045022100884d142d86652a3f47ba4746ec719bbfbd040a570b1deccbb6498c75c4ae24cb02204b9f039ff08df09cbe9f6addac960298cad530a863ea8f53982c09db8f6e3813[ALL] 0484ecc0d46f1918b30928fa0e4ed99f16a0fb4fde0735e7ade8416ab9fe423cc5412336376789d172787ec3457eee41c04f4938de5cc17b4a10fa336a8d752adf&quot;,
+      &quot;sequence&quot;: 4294967295
+    }
+ ],
+  &quot;vout&quot;: [
+    {
+      &quot;value&quot;: 0.01500000,
+      &quot;scriptPubKey&quot;: &quot;OP_DUP OP_HASH160 ab68025513c3dbd2f7b92a94e0581f5d50f654e7 OP_EQUALVERIFY OP_CHECKSIG&quot;
+    },
+    {
+      &quot;value&quot;: 0.08450000,
+      &quot;scriptPubKey&quot;: &quot;OP_DUP OP_HASH160 7f9b1a7fb68d60c536c2fd8aeaa53a8f3cc025a8 OP_EQUALVERIFY OP_CHECKSIG&quot;,
+    }
+  ]
+}
+</code></pre><p>&#x5728;&#x6BD4;&#x7279;&#x5E01;&#x91CC;&#xFF0C;&#x6CA1;&#x6709;&#x5177;&#x4F53;&#x7684;&#x8D27;&#x5E01;&#xFF0C;&#x6CA1;&#x6709;&#x53D1;&#x9001;&#x8005;&#xFF0C;&#x6CA1;&#x6709;&#x63A5;&#x6536;&#x8005;&#xFF0C;&#x6CA1;&#x6709;&#x4F59;&#x989D;&#xFF0C;&#x6CA1;&#x6709;&#x8D26;&#x6237;&#xFF0C;&#x6CA1;&#x6709;&#x5730;&#x5740;&#x3002;</p>
+<h2 id="&#x4EA4;&#x6613;&#x7684;&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;">&#x4EA4;&#x6613;&#x7684;&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;</h2>
+<p>&#x7528;&#x6237;&#x7684;&#x6BD4;&#x7279;&#x5E01;&#x201C;&#x4F59;&#x989D;&#x201D;&#x662F;&#x6307;&#x7528;&#x6237;&#x94B1;&#x5305;&#x4E2D;&#x53EF;&#x7528;&#x7684;UTXO&#x603B;&#x548C;&#xFF0C;&#x800C;&#x4ED6;&#x4EEC;&#x53EF;&#x80FD;&#x5206;&#x6563;&#x5728;&#x6570;&#x767E;&#x4E2A;&#x4EA4;&#x6613;&#x548C;&#x533A;&#x5757;&#x4E2D;&#x3002;&#x4E00;&#x4E2A;UTXO&#x53EF;&#x4EE5;&#x662F;1&#x201C;&#x806A;&#x201D;&#xFF08;satoshi&#xFF09;&#x7684;&#x4EFB;&#x610F;&#x500D;&#x6570;&#xFF08;&#x6574;&#x6570;&#x500D;&#xFF09;&#x3002;&#x6BD4;&#x7279;&#x5E01;&#x53EF;&#x4EE5;&#x88AB;&#x5206;&#x5272;&#x6210;&#x516B;&#x4F4D;&#x5C0F;&#x6570;&#x7684;&quot;&#x806A;&quot;&#x3002;UTXO&#x662F;&#x9762;&#x503C;&#x4E3A;&#x201C;&#x806A;&#x201D;&#x7684;&#x79BB;&#x6563;&#xFF08;&#x4E0D;&#x8FDE;&#x7EED;&#xFF09;&#x4E14;&#x4E0D;&#x53EF;&#x5206;&#x5272;&#x7684;&#x4EF7;&#x503C;&#x5355;&#x5143;&#xFF0C;&#x4E00;&#x4E2A; UTXO &#x53EA;&#x80FD;&#x5728;&#x4E00;&#x6B21;&#x4EA4;&#x6613;&#x4E2D;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x6574;&#x4F53;&#x88AB;&#x6D88;&#x8017;&#x3002;<br>&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x4F1A;&#x6D88;&#x8017;&#x5148;&#x524D;&#x7684;&#x5DF2;&#x88AB;&#x8BB0;&#x5F55;&#xFF08;&#x5B58;&#x5728;&#xFF09;&#x7684;UTXO&#xFF0C;&#x5E76;&#x521B;&#x5EFA;&#x65B0;&#x7684;UTXO&#x4EE5;&#x5907;&#x672A;&#x6765;&#x7684;&#x4EA4;&#x6613;&#x6D88;&#x8017;&#x3002;&#x901A;&#x8FC7;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#xFF0C;&#x4E00;&#x5B9A;&#x6570;&#x91CF;&#x7684;&#x6BD4;&#x7279;&#x5E01;&#x4EF7;&#x503C;&#x5728;&#x4E0D;&#x540C;&#x6240;&#x6709;&#x8005;&#x4E4B;&#x95F4;&#x8F6C;&#x79FB;&#xFF0C;&#x5E76;&#x5728;&#x4EA4;&#x6613;&#x94FE;&#x4E2D;&#x6D88;&#x8017;&#x548C;&#x521B;&#x5EFA;UTXO&#x3002;&#x4E00;&#x7B14;&#x6BD4;&#x7279;&#x5E01;&#x4EA4;&#x6613;&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x6240;&#x6709;&#x8005;&#x7684;&#x7B7E;&#x540D;&#x6765;&#x89E3;&#x9501;UTXO&#xFF0C;&#x5E76;&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x65B0;&#x7684;&#x6240;&#x6709;&#x8005;&#x7684;&#x6BD4;&#x7279;&#x5E01;&#x5730;&#x5740;&#x6765;&#x9501;&#x5B9A;&#x5E76;&#x521B;&#x5EFA;UTXO&#x3002;</p>
+<h2 id="&#x4EA4;&#x6613;&#x8F93;&#x51FA;">&#x4EA4;&#x6613;&#x8F93;&#x51FA;</h2>
+<p>&#x6BCF;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x90FD;&#x4F1A;&#x521B;&#x9020;&#x8F93;&#x51FA;&#xFF0C;&#x51E0;&#x4E4E;&#x6240;&#x6709;&#x7684;&#x8F93;&#x51FA;&#x90FD;&#x80FD;&#x521B;&#x9020;&#x4E00;&#x5B9A;&#x6570;&#x91CF;&#x7684;&#x53EF;&#x7528;&#x4E8E;&#x652F;&#x4ED8;&#x7684;&#x6BD4;&#x7279;&#x5E01;&#xFF0C;&#x4E5F;&#x5C31;&#x662F; UTXO&#x3002;UTXO &#x5728; UTXO &#x96C6;&#x4E2D;&#x88AB;&#x6BCF;&#x4E00;&#x4E2A;&#x5168;&#x8282;&#x70B9;&#x6BD4;&#x7279;&#x5E01;&#x5BA2;&#x6237;&#x7AEF;&#x8FFD;&#x8E2A;&#x3002;&#x65B0;&#x7684;&#x4EA4;&#x6613;&#x4ECE; UTXO &#x96C6;&#x4E2D;&#x6D88;&#x8017;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x8F93;&#x51FA;&#x3002;  </p>
+<p>&#x4EA4;&#x6613;&#x8F93;&#x51FA;&#x5305;&#x542B;&#x4E24;&#x90E8;&#x5206;:</p>
+<ul>
+<li>&#x4E00;&#x5B9A;&#x91CF;&#x7684;&#x6BD4;&#x7279;&#x5E01;&#xFF0C;&#x9762;&#x503C;&#x4E3A; &quot;&#x806A;&quot;&#xFF0C;&#x662F;&#x6700;&#x5C0F;&#x7684;&#x6BD4;&#x7279;&#x5E01;&#x5355;&#x4F4D;&#x3002;</li>
+<li>&#x786E;&#x5B9A;&#x8BDD;&#x8D39;&#x8F93;&#x51FA;&#x6240;&#x9700;&#x6761;&#x4EF6;&#x7684;&#x52A0;&#x5BC6;&#x96BE;&#x9898;&#x3002;</li>
+</ul>
+<pre><code>&quot;vout&quot;: [
+  {
+    &quot;value&quot;: 0.01500000,
+    &quot;scriptPubKey&quot;: &quot;OP_DUP OP_HASH160 ab68025513c3dbd2f7b92a94e0581f5d50f654e7 OP_EQUALVERIFY
+OP_CHECKSIG&quot;
+  },
+  {
+    &quot;value&quot;: 0.08450000,
+    &quot;scriptPubKey&quot;: &quot;OP_DUP OP_HASH160 7f9b1a7fb68d60c536c2fd8aeaa53a8f3cc025a8 OP_EQUALVERIFY OP_CHECKSIG&quot;,
+  }
+]
+</code></pre><blockquote>
+<p>&#x5982;&#x60A8;&#x6240;&#x89C1;&#xFF0C;&#x4EA4;&#x6613;&#x5305;&#x542B;&#x4E24;&#x4E2A;&#x8F93;&#x51FA;&#x3002; &#x6BCF;&#x4E2A;&#x8F93;&#x51FA;&#x90FD;&#x7531;&#x4E00;&#x4E2A;&#x503C;&#x548C;&#x4E00;&#x4E2A;&#x52A0;&#x5BC6;&#x96BE;&#x9898;&#x6765;&#x5B9A;&#x4E49;&#x3002; &#x5728; Bitcoin Core &#x663E;&#x793A;&#x7684;&#x7F16;&#x7801;&#x4E2D;&#xFF0C;&#x8BE5;&#x503C;&#x663E;&#x793A;&#x4EE5; bitcoin &#x4E3A;&#x5355;&#x4F4D;&#xFF0C;&#x4F46;&#x5728;&#x4EA4;&#x6613;&#x672C;&#x8EAB;&#x4E2D;&#xFF0C;&#x5B83;&#x88AB;&#x8BB0;&#x5F55;&#x4E3A;&#x4EE5; satoshis &#x4E3A;&#x5355;&#x4F4D;&#x7684;&#x6574;&#x6570;&#x3002; &#x6BCF;&#x4E2A;&#x8F93;&#x51FA;&#x7684;&#x7B2C;&#x4E8C;&#x90E8;&#x5206;&#x662F;&#x8BBE;&#x5B9A;&#x652F;&#x51FA;&#x6761;&#x4EF6;&#x7684;&#x52A0;&#x5BC6;&#x96BE;&#x9898;&#x3002; </p>
+</blockquote>
+<h2 id="&#x4EA4;&#x6613;&#x5E8F;&#x5217;&#x5316;---&#x8F93;&#x51FA;">&#x4EA4;&#x6613;&#x5E8F;&#x5217;&#x5316; - &#x8F93;&#x51FA;</h2>
+<p>&#x5F53;&#x4EA4;&#x6613;&#x901A;&#x8FC7;&#x7F51;&#x7EDC;&#x4F20;&#x8F93;&#x6216;&#x5728;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E4B;&#x95F4;&#x4EA4;&#x6362;&#x65F6;&#xFF0C;&#x5B83;&#x4EEC;&#x88AB;&#x5E8F;&#x5217;&#x5316;&#x3002; &#x5E8F;&#x5217;&#x5316;&#x662F;&#x5C06;&#x5185;&#x90E8;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x8868;&#x793A;&#x8F6C;&#x6362;&#x4E3A;&#x53EF;&#x4EE5;&#x4E00;&#x6B21;&#x53D1;&#x9001;&#x4E00;&#x4E2A;&#x5B57;&#x8282;&#x7684;&#x683C;&#x5F0F;&#xFF08;&#x4E5F;&#x79F0;&#x4E3A;&#x5B57;&#x8282;&#x6D41;&#xFF09;&#x7684;&#x8FC7;&#x7A0B;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Size</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8 bytes (little-endian)</td>
+<td>Amount</td>
+<td>Bitcoin value in satoshis (10^-8 bitcoin)</td>
+</tr>
+<tr>
+<td>1-9 bytes (VarInt)</td>
+<td>Locking-Script Size</td>
+<td>Locking-Script length in bytes, to follow</td>
+</tr>
+<tr>
+<td>Variable</td>
+<td>Lockingn-Script</td>
+<td>A script defininng the conditions needed to spend the output</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x5927;&#x591A;&#x6570;&#x6BD4;&#x7279;&#x5E01;&#x51FD;&#x6570;&#x5E93;&#x548C;&#x67B6;&#x6784;&#x4E0D;&#x4F1A;&#x5728;&#x5185;&#x90E8;&#x5C06;&#x4EA4;&#x6613;&#x5B58;&#x50A8;&#x4E3A;&#x5B57;&#x8282;&#x6D41;&#xFF0C;&#x56E0;&#x4E3A;&#x6BCF;&#x6B21;&#x9700;&#x8981;&#x8BBF;&#x95EE;&#x5355;&#x4E2A;&#x5B57;&#x6BB5;&#x65F6;&#xFF0C;&#x90FD;&#x9700;&#x8981;&#x590D;&#x6742;&#x7684;&#x89E3;&#x6790;&#x3002;&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x548C;&#x53EF;&#x8BFB;&#x6027;&#xFF0C;&#x6BD4;&#x7279;&#x5E01;&#x51FD;&#x6570;&#x5E93;&#x5C06;&#x4EA4;&#x6613;&#x5185;&#x90E8;&#x5B58;&#x50A8;&#x5728;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF08;&#x901A;&#x5E38;&#x662F;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7684;&#x7ED3;&#x6784;&#xFF09;&#x4E2D;&#x3002;</p>
+</blockquote>
+<h2 id="&#x4EA4;&#x6613;&#x5E8F;&#x5217;&#x5316;---&#x4EA4;&#x6613;&#x8F93;&#x5165;">&#x4EA4;&#x6613;&#x5E8F;&#x5217;&#x5316; - &#x4EA4;&#x6613;&#x8F93;&#x5165;</h2>
+<p>&#x5F53;&#x4EA4;&#x6613;&#x88AB;&#x5E8F;&#x5217;&#x5316;&#x4EE5;&#x5728;&#x7F51;&#x7EDC;&#x4E0A;&#x4F20;&#x8F93;&#x65F6;&#xFF0C;&#x5B83;&#x4EEC;&#x7684;&#x8F93;&#x5165;&#x88AB;&#x7F16;&#x7801;&#x6210;&#x5B57;&#x8282;&#x6D41;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>Size</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>32 bytes</td>
+<td>Transaction Hash</td>
+<td>Pointer to the transaction containing the UTXO to be spent</td>
+</tr>
+<tr>
+<td>4 bytes</td>
+<td>Output index</td>
+<td>The index nnumber of the UTXO to be spent; first one is 0</td>
+</tr>
+<tr>
+<td>1-9 bytes</td>
+<td>Unlocking-Script Size</td>
+<td>Unlocking-Script length in bytes, to follow</td>
+</tr>
+<tr>
+<td>Variable</td>
+<td>Unlocking-Script</td>
+<td>A script that fullfills the conditions of the UTXO locking script</td>
+</tr>
+<tr>
+<td>4 bytes</td>
+<td>Sequence Number</td>
+<td>Used for locktime or disabled (0xFFFFFFFF)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x4EA4;&#x6613;&#x8D39;">&#x4EA4;&#x6613;&#x8D39;</h2>
+<p>&#x4EA4;&#x6613;&#x8D39;&#x662F;&#x57FA;&#x4E8E;&#x4EA4;&#x6613;&#x7684;&#x5343;&#x5B57;&#x8282;&#x89C4;&#x6A21;&#x6765;&#x8BA1;&#x7B97;&#x7684;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x6BD4;&#x7279;&#x5E01;&#x4EA4;&#x6613;&#x7684;&#x4EF7;&#x503C;&#x3002;<br>&#x603B;&#x7684;&#x6765;&#x8BF4;&#xFF0C;&#x4EA4;&#x6613;&#x8D39;&#x662F;&#x6839;&#x636E;&#x6BD4;&#x7279;&#x5E01;&#x7F51;&#x7EDC;&#x4E2D;&#x7684;&#x5E02;&#x573A;&#x529B;&#x91CF;&#x786E;&#x5B9A;&#x7684;&#x3002;&#x77FF;&#x5DE5;&#x4F1A;&#x4F9D;&#x636E;&#x8BB8;&#x591A;&#x4E0D;&#x540C;&#x7684;&#x6807;&#x51C6;&#x5BF9;&#x4EA4;&#x6613;&#x8FDB;&#x884C;&#x4F18;&#x5148;&#x7EA7;&#x6392;&#x5E8F;&#xFF0C;&#x5305;&#x62EC;&#x8D39;&#x7528;&#xFF0C;&#x4ED6;&#x4EEC;&#x751A;&#x81F3;&#x53EF;&#x80FD;&#x5728;&#x67D0;&#x4E9B;&#x7279;&#x5B9A;&#x60C5;&#x51B5;&#x4E0B;&#x514D;&#x8D39;&#x5904;&#x7406;&#x4EA4;&#x6613;&#x3002;<br>&#x4F46;&#x5927;&#x591A;&#x6570;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4EA4;&#x6613;&#x8D39;&#x5F71;&#x54CD;&#x5904;&#x7406;&#x4F18;&#x5148;&#x7EA7;&#xFF0C;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x6709;&#x8DB3;&#x591F;&#x8D39;&#x7528;&#x7684;&#x4EA4;&#x6613;&#x4F1A;&#x66F4;&#x53EF;&#x80FD;&#x88AB;&#x6253;&#x5305;&#x8FDB;&#x4E0B;&#x4E00;&#x4E2A;&#x6316;&#x51FA;&#x7684;&#x533A;&#x5757;&#x4E2D;&#xFF1B;&#x53CD;&#x4E4B;&#x4EA4;&#x6613;&#x8D39;&#x4E0D;&#x8DB3;&#x6216;&#x8005;&#x6CA1;&#x6709;&#x4EA4;&#x6613;&#x8D39;&#x7684;&#x4EA4;&#x6613;&#x53EF;&#x80FD;&#x4F1A;&#x88AB;&#x63A8;&#x8FDF;&#xFF0C;&#x57FA;&#x4E8E;&#x5C3D;&#x529B;&#x800C;&#x4E3A;&#x7684;&#x539F;&#x5219;&#x5728;&#x51E0;&#x4E2A;&#x533A;&#x5757;&#x4E4B;&#x540E;&#x88AB;&#x5904;&#x7406;&#xFF0C;&#x751A;&#x81F3;&#x53EF;&#x80FD;&#x6839;&#x672C;&#x4E0D;&#x88AB;&#x5904;&#x7406;&#x3002;&#x4EA4;&#x6613;&#x8D39;&#x4E0D;&#x662F;&#x5F3A;&#x5236;&#x7684;&#xFF0C;&#x800C;&#x4E14;&#x6CA1;&#x6709;&#x4EA4;&#x6613;&#x8D39;&#x7684;&#x4EA4;&#x6613;&#x6700;&#x7EC8;&#x4E5F;&#x53EF;&#x80FD;&#x4F1A;&#x88AB;&#x5904;&#x7406;&#xFF0C;&#x4F46;&#x662F;&#xFF0C;&#x4EA4;&#x6613;&#x8D39;&#x5C06;&#x63D0;&#x9AD8;&#x5904;&#x7406;&#x4F18;&#x5148;&#x7EA7;&#x3002;  </p>
+<p>&#x968F;&#x7740;&#x65F6;&#x95F4;&#x7684;&#x63A8;&#x79FB;&#xFF0C;&#x4EA4;&#x6613;&#x8D39;&#x7684;&#x8BA1;&#x7B97;&#x65B9;&#x5F0F;&#x4EE5;&#x53CA;&#x5728;&#x4EA4;&#x6613;&#x5904;&#x7406;&#x4F18;&#x5148;&#x7EA7;&#x4E0A;&#x7684;&#x5F71;&#x54CD;&#x5DF2;&#x7ECF;&#x4EA7;&#x751F;&#x4E86;&#x53D8;&#x5316;&#x3002;&#x8D77;&#x521D;&#xFF0C;&#x4EA4;&#x6613;&#x8D39;&#x662F;&#x56FA;&#x5B9A;&#x7684;&#xFF0C;&#x662F;&#x7F51;&#x7EDC;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x56FA;&#x5B9A;&#x5E38;&#x6570;&#x3002;&#x6E10;&#x6E10;&#x5730;&#xFF0C;&#x968F;&#x7740;&#x7F51;&#x7EDC;&#x5BB9;&#x91CF;&#x548C;&#x4EA4;&#x6613;&#x91CF;&#x7684;&#x4E0D;&#x65AD;&#x53D8;&#x5316;&#xFF0C;&#x5E76;&#x53EF;&#x80FD;&#x53D7;&#x5230;&#x6765;&#x81EA;&#x5E02;&#x573A;&#x529B;&#x91CF;&#x7684;&#x5F71;&#x54CD;&#xFF0C;&#x6536;&#x8D39;&#x7ED3;&#x6784;&#x5F00;&#x59CB;&#x653E;&#x677E;&#x3002;&#x81EA;&#x4ECE;&#x81F3;&#x5C11;2016&#x5E74;&#x521D;&#x4EE5;&#x6765;&#xFF0C;&#x6BD4;&#x7279;&#x5E01;&#x7F51;&#x7EDC;&#x5BB9;&#x91CF;&#x7684;&#x9650;&#x5236;&#x5DF2;&#x7ECF;&#x9020;&#x6210;&#x4EA4;&#x6613;&#x4E4B;&#x95F4;&#x7684;&#x7ADE;&#x4E89;&#xFF0C;&#x4ECE;&#x800C;&#x5BFC;&#x81F4;&#x66F4;&#x9AD8;&#x7684;&#x8D39;&#x7528;&#xFF0C;&#x514D;&#x8D39;&#x4EA4;&#x6613;&#x5F7B;&#x5E95;&#x6210;&#x4E3A;&#x8FC7;&#x53BB;&#x5F0F;&#x3002;&#x96F6;&#x8D39;&#x7528;&#x6216;&#x975E;&#x5E38;&#x4F4E;&#x8D39;&#x7528;&#x7684;&#x4EA4;&#x6613;&#x9C9C;&#x5C11;&#x88AB;&#x5904;&#x7406;&#xFF0C;&#x6709;&#x65F6;&#x751A;&#x81F3;&#x4E0D;&#x4F1A;&#x5728;&#x7F51;&#x7EDC;&#x4E0A;&#x4F20;&#x64AD;&#x3002;  </p>
+<h2 id="&#x628A;&#x4EA4;&#x6613;&#x52A0;&#x5230;&#x4EA4;&#x6613;&#x4E2D;">&#x628A;&#x4EA4;&#x6613;&#x52A0;&#x5230;&#x4EA4;&#x6613;&#x4E2D;</h2>
 
                                 
                                 </section>
@@ -788,10 +909,10 @@
 
             
                 
-                
-                <a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 介绍">
-                    <i class="fa fa-angle-right"></i>
+                <a href="wallet.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 钱包">
+                    <i class="fa fa-angle-left"></i>
                 </a>
+                
                 
             
         
@@ -800,7 +921,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"比特币","level":"1.5","depth":1,"next":{"title":"介绍","level":"1.5.1","depth":2,"path":"src/btc/intro.md","ref":"src/btc/intro.md","articles":[]},"previous":{"title":"Paxos算法","level":"1.4.9","depth":2,"ref":"","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"src/btc/README.md","mtime":"2018-05-14T08:37:17.361Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-16T18:12:34.486Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"交易","level":"1.5.6","depth":2,"next":{"title":"高级交易和副本","level":"1.5.7","depth":2,"ref":"","articles":[]},"previous":{"title":"钱包","level":"1.5.5","depth":2,"path":"src/btc/wallet.md","ref":"src/btc/wallet.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"src/btc/transaction.md","mtime":"2018-05-16T10:01:21.907Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-16T18:12:34.486Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

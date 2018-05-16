@@ -26,7 +26,7 @@
   * [比特币核心](/src/btc/core.md)
   * [密钥和地址](/src/btc/keyandaddress.md)
   * [钱包](/src/btc/wallet.md)
-  * [交易]()
+  * [交易](/src/btc/transaction.md)
   * [高级交易和副本]()
   * [比特币网络]()
   * [区块链]()
