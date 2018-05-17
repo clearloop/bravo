@@ -27,7 +27,7 @@
   * [密钥和地址](/src/btc/keyandaddress.md)
   * [钱包](/src/btc/wallet.md)
   * [交易](/src/btc/transaction.md)
-  * [高级交易和副本]()
+  * [高级交易和副本](/src/btc/script.md)
   * [比特币网络]()
   * [区块链]()
   * [挖矿和共识]()
