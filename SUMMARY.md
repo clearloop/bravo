@@ -8,8 +8,10 @@
   * [分散式杂凑表( DHT )]()
 * [存储]()
   * [数据结构](/src/storage/datastructure.md)
+  * [数据库](/src/storage/db.md)
   * [默克尔树]()
-  * [有向无环图]()  
+  * [有向无环图]()
+
 * [共识](/src/consensus/README.md)
   * [工作量证明]()
   * [权益证明]()
